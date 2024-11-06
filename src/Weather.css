@@ -1,11 +1,10 @@
 .Weather {
-  border: 1px solid rgba(84, 81, 81, 0.64);
-  border-radius: 8px;
+  border: 1px solid rgba(56, 47, 96, 0.6);
+  border-radius: 30px;
   font-family: Arial, Helvetica, sans-serif;
   padding: 26px;
   margin: 30px auto;
-
-  color: #282c34;
+  color: #382f60;
 }
 
 .Weather h1 {
@@ -28,15 +27,18 @@
   line-height: 19px;
   text-align: left;
 }
+.Weather a {
+  text-decoration: none;
+}
 .Weather canvas {
   float: left;
-  margin-right: 10px;
 }
 
 .Weather .temperature {
   font-weight: 400;
   font-size: 64px;
   line-height: 64px;
+  margin-left: 10px;
 }
 
 .Weather .unit {

@@ -28,11 +28,9 @@
   line-height: 19px;
   text-align: left;
 }
-
 .Weather canvas {
   float: left;
   margin-right: 10px;
-  width: 64px;
 }
 
 .Weather .temperature {
